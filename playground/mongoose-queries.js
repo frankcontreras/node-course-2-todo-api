@@ -4,7 +4,7 @@ const {mongoose} = require('./../server/db/mongoose');
 const {Todo} = require('./../server/models/todo');
 const {User} = require('./../server/models/user');
 
-var id = '5c0038282ff2060e92fbe15d_';
+var id = '5c0038282ff2060e92fbe15d';
 var userId = '5bff1999b91ef0ab8c9a8a93';
 
 // if (!ObjectID.isValid(id)) {
