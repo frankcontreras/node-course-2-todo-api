@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
-  "author": "",
+  "engines": {
+    "node": "11.2.0"
+  },
+  "author": "node server/server.js",
   "license": "ISC",
   "description": "",
   "dependencies": {
